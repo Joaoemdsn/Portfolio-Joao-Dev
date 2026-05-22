@@ -19,12 +19,12 @@ const siteData = {
     {
       title: "Chá e Encantos",
       image: "assets/images/real/project-cha.png",
-      url: "#",
+      url: "https://https://cha-e-encantos-e-commerce-deploy.vercel.app",
     },
     {
       title: "Mentoria ITER - Site de Links",
       image: "assets/images/real/project-mentoria.png",
-      url: "#",
+      url: "https://mentoriaiter.netlify.app/#home",
     },
   ],
 };

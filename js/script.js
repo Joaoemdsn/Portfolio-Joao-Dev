@@ -1,8 +1,8 @@
 const siteData = {
   links: {
-    github: "https://github.com/",
-    instagram: "https://www.instagram.com/",
-    whatsapp: "https://wa.me/5500000000000",
+    github: "https://github.com/Joaoemdsn",
+    instagram: "https://www.instagram.com/joao.emdsn",
+    whatsapp: "https://wa.me/5586995063535",
   },
   skills: [
     { name: "Figma", icon: "assets/icons/real/figma.png" },

@@ -1,0 +1,12 @@
+<svg width="920" height="516" viewBox="0 0 920 516" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="920" height="516" rx="8" fill="#F7F3EC"/>
+  <rect width="920" height="112" fill="#183529"/>
+  <text x="38" y="54" fill="#F7F3EC" font-family="Inter, Arial" font-size="28" font-weight="900">Chá e Encantos</text>
+  <text x="38" y="82" fill="#D9E1D7" font-family="Inter, Arial" font-size="13" font-weight="700">E-Commerce completo desenvolvido para loja de chás.</text>
+  <rect x="40" y="132" width="840" height="344" rx="8" fill="#FBF8F0"/>
+  <text x="140" y="290" fill="#2E4A3D" font-family="Georgia, serif" font-size="58" font-weight="700">Sinta a magia em</text>
+  <text x="140" y="354" fill="#2E4A3D" font-family="Georgia, serif" font-size="58" font-weight="700">cada gole.</text>
+  <circle cx="698" cy="286" r="76" fill="#B58A5B"/>
+  <circle cx="698" cy="286" r="40" fill="#6B351E"/>
+  <rect x="140" y="398" width="118" height="34" rx="17" fill="#183529"/>
+</svg>

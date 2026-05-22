@@ -1,0 +1,10 @@
+<svg width="760" height="920" viewBox="0 0 760 920" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="760" height="920" rx="62" fill="#F1F1EF"/>
+  <path d="M228 850C242 626 312 502 405 502C505 502 573 626 594 850H228Z" fill="#111"/>
+  <circle cx="406" cy="332" r="126" fill="#D8D8D5"/>
+  <path d="M260 344C320 264 431 230 540 280C498 204 382 174 302 226C250 260 236 305 260 344Z" fill="#111"/>
+  <path d="M508 336L626 378L508 411V336Z" fill="#BABAB7"/>
+  <path d="M355 420C386 438 421 438 453 420" stroke="#222" stroke-width="9" stroke-linecap="round"/>
+  <rect x="92" y="78" width="140" height="10" fill="#D8D8D5"/>
+  <text x="92" y="816" fill="#888" font-family="Inter, Arial" font-size="22" font-weight="800">Substitua por story.jpg</text>
+</svg>

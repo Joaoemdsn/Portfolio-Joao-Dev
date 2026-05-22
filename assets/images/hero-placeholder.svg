@@ -1,0 +1,14 @@
+<svg width="1600" height="1000" viewBox="0 0 1600 1000" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="1000" fill="#D4DBDC"/>
+  <circle cx="807" cy="420" r="128" fill="#171717"/>
+  <path d="M600 1000C622 724 705 575 812 575C932 575 1010 724 1036 1000H600Z" fill="#0D0D0D"/>
+  <path d="M610 266C480 130 313 104 235 172C155 242 225 390 373 502L610 266Z" fill="#111"/>
+  <path d="M974 286C1100 148 1263 117 1348 183C1437 253 1363 398 1217 511L974 286Z" fill="#111"/>
+  <path d="M612 286C512 178 375 148 314 196C249 247 320 365 458 468L612 286Z" fill="#E7D2C8"/>
+  <path d="M978 303C1083 184 1217 158 1279 205C1342 253 1271 372 1138 475L978 303Z" fill="#E7D2C8"/>
+  <rect x="690" y="352" width="236" height="72" rx="22" fill="#050505"/>
+  <circle cx="740" cy="389" r="30" fill="#0B0B0B"/>
+  <circle cx="876" cy="389" r="30" fill="#0B0B0B"/>
+  <path d="M761 500C794 520 829 520 862 500" stroke="#151515" stroke-width="8" stroke-linecap="round"/>
+  <text x="60" y="930" fill="#BFC5C6" font-family="Inter, Arial" font-size="28" font-weight="800">Substitua por assets/images/hero.jpg</text>
+</svg>

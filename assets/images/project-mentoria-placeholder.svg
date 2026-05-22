@@ -1,0 +1,11 @@
+<svg width="920" height="516" viewBox="0 0 920 516" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="920" height="516" rx="8" fill="#F4DDBD"/>
+  <rect width="920" height="112" fill="#5C382B"/>
+  <text x="38" y="54" fill="#F7E7D2" font-family="Inter, Arial" font-size="28" font-weight="900">Mentoria ITER - Site de Links</text>
+  <text x="38" y="82" fill="#F5D9C1" font-family="Inter, Arial" font-size="13" font-weight="700">Experiência para captação de alunos e acesso rápido.</text>
+  <text x="72" y="264" fill="#5C382B" font-family="Georgia, serif" font-size="60" font-weight="700">Sua aprovação</text>
+  <text x="72" y="326" fill="#5C382B" font-family="Georgia, serif" font-size="60" font-weight="700">começa na</text>
+  <text x="72" y="388" fill="#5C382B" font-family="Georgia, serif" font-size="60" font-weight="700">ITER.</text>
+  <path d="M604 380C790 360 744 160 616 182C526 198 548 302 672 298C799 294 837 228 826 149" stroke="#5C382B" stroke-width="52" stroke-linecap="round"/>
+  <path d="M604 380C790 360 744 160 616 182C526 198 548 302 672 298C799 294 837 228 826 149" stroke="#2F1D17" stroke-width="12" stroke-dasharray="8 18" stroke-linecap="round" opacity=".6"/>
+</svg>

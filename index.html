@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfólio de João Evangelista, desenvolvedor Full-Stack."
+    />
+    <title>João Evangelista | Full-Stack Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header class="site-header" data-animate="header">
+      <a class="brand" href="#inicio" aria-label="Voltar ao início">
+        <img src="assets/icons/real/logo-joao.png" alt="João" />
+      </a>
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-label="Abrir menu"
+        aria-controls="mainNav"
+        aria-expanded="false"
+      >
+        <img src="assets/icons/real/burger-bar.png" alt="" aria-hidden="true" />
+      </button>
+      <nav class="main-nav" id="mainNav" aria-label="Navegação principal">
+        <a href="#historia">Minha História</a>
+        <a href="#portfolio">Portfólio</a>
+        <a href="#contato">Contato</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero section" id="inicio" aria-label="Apresentação">
+        <img
+          class="hero__image"
+          src="assets/images/real/hero-hands.png"
+          alt="João Evangelista em retrato de destaque"
+          data-parallax="hero"
+        />
+        <div class="hero__shade" aria-hidden="true"></div>
+        <div class="hero__content" data-animate="hero-copy">
+          <h1>João Evangelista</h1>
+          <p>Full-Stack Developer &lt;/&gt;</p>
+        </div>
+      </section>
+
+      <section class="story section section--dark" id="historia">
+        <div class="story__media reveal">
+          <img
+            src="assets/images/real/story-profile.png"
+            alt="Retrato lateral de João Evangelista"
+            loading="lazy"
+            data-parallax="soft"
+          />
+          <img
+            class="story__signature"
+            src="assets/icons/real/signature.png"
+            alt=""
+            aria-hidden="true"
+          />
+        </div>
+        <div class="story__copy reveal">
+          <h2>Minha História</h2>
+          <p>
+            Apaixonado por tecnologia desde criança, porém com o sonho guardado
+            dentro da gaveta por muito tempo. Hoje, me encontro fazendo aquilo
+            que sempre quis e acreditava que não.
+          </p>
+          <p>
+            Co-Fundador da Mentoria ITER - projeto educacional voltado para a
+            área de ENEM e Vestibulares, que já ajudou diversos alunos a serem
+            aprovados nos cursos dos seus sonhos. Acadêmico de Engenharia de
+            Software, hoje busco me consolidar no mercado e sempre adquirir
+            novos conhecimentos.
+          </p>
+        </div>
+      </section>
+
+      <section class="portfolio section" id="portfolio">
+        <div class="section-heading reveal">
+          <h2>Portfólio/Projetos/Habilidades</h2>
+        </div>
+
+        <div class="portfolio__grid">
+          <div class="social-grid" aria-label="Links sociais em destaque">
+            <article class="social-card social-card--light reveal">
+              <div class="social-card__header">
+                <div>
+                  <h3>Github</h3>
+                  <p>Aqui você encontra meus projetos e fica por dentro das minhas habilidades.</p>
+                </div>
+                <img class="social-card__icon" src="assets/icons/real/github.png" alt="" aria-hidden="true" />
+              </div>
+              <a class="pill-link" data-link="github" href="#" target="_blank" rel="noreferrer">Visitar</a>
+              <div class="social-card__image-area">
+                <img
+                  class="social-card__image social-card__image--github"
+                  src="assets/images/real/github-noir.jpg"
+                  alt="Prévia visual do perfil GitHub"
+                  loading="lazy"
+                />
+                <div class="social-card__tags" aria-label="Categorias do GitHub">
+                  <span>Projetos</span>
+                  <span>Habilidades</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="social-card social-card--dark reveal">
+              <div class="social-card__header">
+                <div>
+                  <h3>Instagram</h3>
+                  <p>Aqui você encontra meus projetos e fica por dentro da minha rotina.</p>
+                </div>
+                <img class="social-card__icon" src="assets/icons/real/instagram.png" alt="" aria-hidden="true" />
+              </div>
+              <a class="pill-link" data-link="instagram" href="#" target="_blank" rel="noreferrer">Visitar</a>
+              <div class="social-card__image-area">
+                <img
+                  class="social-card__image"
+                  src="assets/images/real/instagram-profile.png"
+                  alt="Prévia visual do perfil Instagram"
+                  loading="lazy"
+                />
+                <div class="social-card__tags" aria-label="Categorias do Instagram">
+                  <span>Lifestyle</span>
+                  <span>Rotina</span>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <aside class="skills-panel reveal" aria-label="Habilidades e idiomas">
+            <h3>Habilidades:</h3>
+            <div class="skills-list" id="skillsList"></div>
+            <h3>Idiomas:</h3>
+            <ul class="languages" aria-label="Níveis de idiomas">
+              <li class="language" style="--level: 6">
+                <span class="language__bar" aria-hidden="true"></span>
+                <span class="language__name">Português</span>
+              </li>
+              <li class="language" style="--level: 4">
+                <span class="language__bar" aria-hidden="true"></span>
+                <span class="language__name">Inglês</span>
+              </li>
+              <li class="language" style="--level: 3">
+                <span class="language__bar" aria-hidden="true"></span>
+                <span class="language__name">Espanhol</span>
+              </li>
+            </ul>
+          </aside>
+        </div>
+
+        <div class="projects">
+          <h3 class="projects__title reveal">Links Úteis (Projetos):</h3>
+          <div class="project-grid" id="projectGrid"></div>
+        </div>
+      </section>
+
+      <section class="contact section" id="contato">
+        <div class="contact__person reveal">
+          <img
+            src="assets/images/real/contact-sitting.png"
+            alt="João Evangelista sentado"
+            loading="lazy"
+            data-parallax="soft"
+          />
+          <div class="contact__name">
+            <strong>João Evangelista</strong>
+            <span>Full-Stack Developer &lt;/&gt;</span>
+          </div>
+        </div>
+
+        <div class="contact__content">
+          <div class="contact__panel">
+            <div class="contact__panel-header">
+              <img src="assets/icons/real/logo-joao.png" alt="João" />
+              <h2>Contato</h2>
+            </div>
+            <div class="contact-actions">
+              <a class="contact-button contact-button--whatsapp" data-link="whatsapp" href="#" target="_blank" rel="noreferrer">
+                <img class="contact-button__icon" src="assets/icons/real/whatsapp.png" alt="" aria-hidden="true" />
+                <span>Whatsapp</span>
+                <span class="contact-button__arrow" aria-hidden="true">
+                  <img src="assets/icons/real/right-arrow.png" alt="" />
+                </span>
+              </a>
+              <a class="contact-button contact-button--instagram" data-link="instagram" href="#" target="_blank" rel="noreferrer">
+                <img class="contact-button__icon" src="assets/icons/real/instagram.png" alt="" aria-hidden="true" />
+                <span>Instagram</span>
+                <span class="contact-button__arrow" aria-hidden="true">
+                  <img src="assets/icons/real/right-arrow.png" alt="" />
+                </span>
+              </a>
+            </div>
+          </div>
+          <p class="contact__tagline">Vamos dar vida as suas ideias?! Te Aguardo</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <img src="assets/icons/real/logo-joao.png" alt="João" />
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

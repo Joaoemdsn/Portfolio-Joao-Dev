@@ -1,0 +1,10 @@
+<svg width="560" height="420" viewBox="0 0 560 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="560" height="420" fill="#D1D1CD"/>
+  <path d="M218 394C234 287 282 229 352 229C429 229 477 289 492 394H218Z" fill="#121212"/>
+  <circle cx="352" cy="156" r="70" fill="#DCC8BD"/>
+  <rect x="292" y="145" width="120" height="38" rx="14" fill="#090909"/>
+  <path d="M62 84H498" stroke="#F2F2EF" stroke-width="24"/>
+  <path d="M62 150H498" stroke="#F2F2EF" stroke-width="24"/>
+  <path d="M62 216H498" stroke="#F2F2EF" stroke-width="24"/>
+  <text x="32" y="382" fill="#222" font-family="Inter, Arial" font-size="22" font-weight="900">Instagram Preview</text>
+</svg>
